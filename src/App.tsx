@@ -2,6 +2,8 @@ import Greet from "./Typescript Basics/1-Greet";
 import LoggedIn from "./Typescript Basics/10-LoggedIn";
 import User from "./Typescript Basics/11-User";
 import User2 from "./Typescript Basics/12-User2";
+import Counter from "./Typescript Basics/13-Counter";
+import Counter2 from "./Typescript Basics/14-Counter2";
 import Person from "./Typescript Basics/2-Person";
 import PersonList from "./Typescript Basics/3-PersonList.";
 import Status from "./Typescript Basics/4-Status";
@@ -98,6 +100,12 @@ function App() {
       {/* 7. UseState Type Assertion */}
        <User2/>
 
+       {/* 8. Typing UseReducer Hook */}
+       <Counter/>
+
+       {/* 9. UseReducer Strict Action Types */}
+       <Counter2/>
+
     </>
   );
 }
@@ -143,6 +151,3 @@ type Person = {
 
 */ 
 
-// 2. Use State Hook With TypeScript
-
-// 
